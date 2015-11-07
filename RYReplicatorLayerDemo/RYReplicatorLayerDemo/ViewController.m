@@ -38,15 +38,8 @@
 
 - (void)loveReplicatorLayer
 {
-    _loveLayer = [CAReplicatorLayer layer];
-    _loveLayer.instanceCount = 40;                // 40个layer
-    _loveLayer.instanceDelay = 0.2;               // 每个0.2出现一个layer
-    _loveLayer.instanceColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0].CGColor;
-    _loveLayer.instanceGreenOffset = -0.03;       // 颜色值递减。
-    _loveLayer.instanceRedOffset = -0.02;         // 颜色值递减。
-    _loveLayer.instanceBlueOffset = -0.01;        // 颜色值递减。
     
-    // 爱心路径
+    // love路径
     UIBezierPath *tPath = [UIBezierPath bezierPath];
     [tPath moveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 200)];
     [tPath addQuadCurveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 400) controlPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0 + 200, 20)];
@@ -64,9 +57,15 @@
     loveAnimation.path = tPath.CGPath;
     loveAnimation.duration = 8;
     loveAnimation.repeatCount = MAXFLOAT;
-    
     [tView.layer addAnimation:loveAnimation forKey:@"loveAnimation"];
     
+    _loveLayer = [CAReplicatorLayer layer];
+    _loveLayer.instanceCount = 40;                // 40个layer
+    _loveLayer.instanceDelay = 0.2;               // 每隔0.2出现一个layer
+    _loveLayer.instanceColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0].CGColor;
+    _loveLayer.instanceGreenOffset = -0.03;       // 颜色值递减。
+    _loveLayer.instanceRedOffset = -0.02;         // 颜色值递减。
+    _loveLayer.instanceBlueOffset = -0.01;        // 颜色值递减。
     [_loveLayer addSublayer:tView.layer];
     [self.view.layer addSublayer:_loveLayer];
 }
