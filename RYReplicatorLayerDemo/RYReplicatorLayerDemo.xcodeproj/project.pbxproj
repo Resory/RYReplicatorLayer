@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03772BBB1BEE137F00908B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03772BBA1BEE137F00908B57 /* main.m */; };
+		03772BBE1BEE137F00908B57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03772BBD1BEE137F00908B57 /* AppDelegate.m */; };
+		03772BC11BEE137F00908B57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03772BC01BEE137F00908B57 /* ViewController.m */; };
+		03772BC41BEE137F00908B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03772BC21BEE137F00908B57 /* Main.storyboard */; };
+		03772BC61BEE137F00908B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03772BC51BEE137F00908B57 /* Assets.xcassets */; };
+		03772BC91BEE137F00908B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03772BC71BEE137F00908B57 /* LaunchScreen.storyboard */; };
+		03772BD41BEE137F00908B57 /* RYReplicatorLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03772BD31BEE137F00908B57 /* RYReplicatorLayerDemoTests.m */; };
+		03772BDF1BEE137F00908B57 /* RYReplicatorLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03772BDE1BEE137F00908B57 /* RYReplicatorLayerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03772BD01BEE137F00908B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03772BAE1BEE137F00908B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03772BB51BEE137F00908B57;
+			remoteInfo = RYReplicatorLayerDemo;
+		};
+		03772BDB1BEE137F00908B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03772BAE1BEE137F00908B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03772BB51BEE137F00908B57;
+			remoteInfo = RYReplicatorLayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03772BB61BEE137F00908B57 /* RYReplicatorLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYReplicatorLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03772BBA1BEE137F00908B57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03772BBC1BEE137F00908B57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03772BBD1BEE137F00908B57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03772BBF1BEE137F00908B57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03772BC01BEE137F00908B57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03772BC31BEE137F00908B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03772BC51BEE137F00908B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03772BC81BEE137F00908B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03772BCA1BEE137F00908B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03772BCF1BEE137F00908B57 /* RYReplicatorLayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYReplicatorLayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03772BD31BEE137F00908B57 /* RYReplicatorLayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYReplicatorLayerDemoTests.m; sourceTree = "<group>"; };
+		03772BD51BEE137F00908B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03772BDA1BEE137F00908B57 /* RYReplicatorLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYReplicatorLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03772BDE1BEE137F00908B57 /* RYReplicatorLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYReplicatorLayerDemoUITests.m; sourceTree = "<group>"; };
+		03772BE01BEE137F00908B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03772BB31BEE137F00908B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03772BCC1BEE137F00908B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03772BD71BEE137F00908B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03772BAD1BEE137F00908B57 = {
+			isa = PBXGroup;
+			children = (
+				03772BB81BEE137F00908B57 /* RYReplicatorLayerDemo */,
+				03772BD21BEE137F00908B57 /* RYReplicatorLayerDemoTests */,
+				03772BDD1BEE137F00908B57 /* RYReplicatorLayerDemoUITests */,
+				03772BB71BEE137F00908B57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03772BB71BEE137F00908B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03772BB61BEE137F00908B57 /* RYReplicatorLayerDemo.app */,
+				03772BCF1BEE137F00908B57 /* RYReplicatorLayerDemoTests.xctest */,
+				03772BDA1BEE137F00908B57 /* RYReplicatorLayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03772BB81BEE137F00908B57 /* RYReplicatorLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03772BBC1BEE137F00908B57 /* AppDelegate.h */,
+				03772BBD1BEE137F00908B57 /* AppDelegate.m */,
+				03772BBF1BEE137F00908B57 /* ViewController.h */,
+				03772BC01BEE137F00908B57 /* ViewController.m */,
+				03772BC21BEE137F00908B57 /* Main.storyboard */,
+				03772BC51BEE137F00908B57 /* Assets.xcassets */,
+				03772BC71BEE137F00908B57 /* LaunchScreen.storyboard */,
+				03772BCA1BEE137F00908B57 /* Info.plist */,
+				03772BB91BEE137F00908B57 /* Supporting Files */,
+			);
+			path = RYReplicatorLayerDemo;
+			sourceTree = "<group>";
+		};
+		03772BB91BEE137F00908B57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03772BBA1BEE137F00908B57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03772BD21BEE137F00908B57 /* RYReplicatorLayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				03772BD31BEE137F00908B57 /* RYReplicatorLayerDemoTests.m */,
+				03772BD51BEE137F00908B57 /* Info.plist */,
+			);
+			path = RYReplicatorLayerDemoTests;
+			sourceTree = "<group>";
+		};
+		03772BDD1BEE137F00908B57 /* RYReplicatorLayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03772BDE1BEE137F00908B57 /* RYReplicatorLayerDemoUITests.m */,
+				03772BE01BEE137F00908B57 /* Info.plist */,
+			);
+			path = RYReplicatorLayerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03772BB51BEE137F00908B57 /* RYReplicatorLayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03772BE31BEE137F00908B57 /* Build configuration list for PBXNativeTarget "RYReplicatorLayerDemo" */;
+			buildPhases = (
+				03772BB21BEE137F00908B57 /* Sources */,
+				03772BB31BEE137F00908B57 /* Frameworks */,
+				03772BB41BEE137F00908B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYReplicatorLayerDemo;
+			productName = RYReplicatorLayerDemo;
+			productReference = 03772BB61BEE137F00908B57 /* RYReplicatorLayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03772BCE1BEE137F00908B57 /* RYReplicatorLayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03772BE61BEE137F00908B57 /* Build configuration list for PBXNativeTarget "RYReplicatorLayerDemoTests" */;
+			buildPhases = (
+				03772BCB1BEE137F00908B57 /* Sources */,
+				03772BCC1BEE137F00908B57 /* Frameworks */,
+				03772BCD1BEE137F00908B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03772BD11BEE137F00908B57 /* PBXTargetDependency */,
+			);
+			name = RYReplicatorLayerDemoTests;
+			productName = RYReplicatorLayerDemoTests;
+			productReference = 03772BCF1BEE137F00908B57 /* RYReplicatorLayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03772BD91BEE137F00908B57 /* RYReplicatorLayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03772BE91BEE137F00908B57 /* Build configuration list for PBXNativeTarget "RYReplicatorLayerDemoUITests" */;
+			buildPhases = (
+				03772BD61BEE137F00908B57 /* Sources */,
+				03772BD71BEE137F00908B57 /* Frameworks */,
+				03772BD81BEE137F00908B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03772BDC1BEE137F00908B57 /* PBXTargetDependency */,
+			);
+			name = RYReplicatorLayerDemoUITests;
+			productName = RYReplicatorLayerDemoUITests;
+			productReference = 03772BDA1BEE137F00908B57 /* RYReplicatorLayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03772BAE1BEE137F00908B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Resory;
+				TargetAttributes = {
+					03772BB51BEE137F00908B57 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					03772BCE1BEE137F00908B57 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 03772BB51BEE137F00908B57;
+					};
+					03772BD91BEE137F00908B57 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 03772BB51BEE137F00908B57;
+					};
+				};
+			};
+			buildConfigurationList = 03772BB11BEE137F00908B57 /* Build configuration list for PBXProject "RYReplicatorLayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03772BAD1BEE137F00908B57;
+			productRefGroup = 03772BB71BEE137F00908B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03772BB51BEE137F00908B57 /* RYReplicatorLayerDemo */,
+				03772BCE1BEE137F00908B57 /* RYReplicatorLayerDemoTests */,
+				03772BD91BEE137F00908B57 /* RYReplicatorLayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03772BB41BEE137F00908B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03772BC91BEE137F00908B57 /* LaunchScreen.storyboard in Resources */,
+				03772BC61BEE137F00908B57 /* Assets.xcassets in Resources */,
+				03772BC41BEE137F00908B57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03772BCD1BEE137F00908B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03772BD81BEE137F00908B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03772BB21BEE137F00908B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03772BC11BEE137F00908B57 /* ViewController.m in Sources */,
+				03772BBE1BEE137F00908B57 /* AppDelegate.m in Sources */,
+				03772BBB1BEE137F00908B57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03772BCB1BEE137F00908B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03772BD41BEE137F00908B57 /* RYReplicatorLayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03772BD61BEE137F00908B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03772BDF1BEE137F00908B57 /* RYReplicatorLayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03772BD11BEE137F00908B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03772BB51BEE137F00908B57 /* RYReplicatorLayerDemo */;
+			targetProxy = 03772BD01BEE137F00908B57 /* PBXContainerItemProxy */;
+		};
+		03772BDC1BEE137F00908B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03772BB51BEE137F00908B57 /* RYReplicatorLayerDemo */;
+			targetProxy = 03772BDB1BEE137F00908B57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03772BC21BEE137F00908B57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03772BC31BEE137F00908B57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03772BC71BEE137F00908B57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03772BC81BEE137F00908B57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03772BE11BEE137F00908B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03772BE21BEE137F00908B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03772BE41BEE137F00908B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYReplicatorLayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYReplicatorLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03772BE51BEE137F00908B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYReplicatorLayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYReplicatorLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03772BE71BEE137F00908B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RYReplicatorLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYReplicatorLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYReplicatorLayerDemo.app/RYReplicatorLayerDemo";
+			};
+			name = Debug;
+		};
+		03772BE81BEE137F00908B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RYReplicatorLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYReplicatorLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYReplicatorLayerDemo.app/RYReplicatorLayerDemo";
+			};
+			name = Release;
+		};
+		03772BEA1BEE137F00908B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RYReplicatorLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYReplicatorLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RYReplicatorLayerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		03772BEB1BEE137F00908B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RYReplicatorLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYReplicatorLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RYReplicatorLayerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03772BB11BEE137F00908B57 /* Build configuration list for PBXProject "RYReplicatorLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03772BE11BEE137F00908B57 /* Debug */,
+				03772BE21BEE137F00908B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03772BE31BEE137F00908B57 /* Build configuration list for PBXNativeTarget "RYReplicatorLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03772BE41BEE137F00908B57 /* Debug */,
+				03772BE51BEE137F00908B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03772BE61BEE137F00908B57 /* Build configuration list for PBXNativeTarget "RYReplicatorLayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03772BE71BEE137F00908B57 /* Debug */,
+				03772BE81BEE137F00908B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03772BE91BEE137F00908B57 /* Build configuration list for PBXNativeTarget "RYReplicatorLayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03772BEA1BEE137F00908B57 /* Debug */,
+				03772BEB1BEE137F00908B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03772BAE1BEE137F00908B57 /* Project object */;
+}
